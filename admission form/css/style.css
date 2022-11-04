@@ -1,0 +1,71 @@
+.formRow {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    background: #fff;
+   }
+   
+   .adText {
+    color: #232088;
+    text-align: center;
+   }
+   
+   form input {
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    outline: none;
+   }
+   
+   form input:focus {
+    border-color: #1bbd36;
+   }
+   
+   .submit {
+    width: 100px;
+   }
+   
+   .submit input {
+    background: #1bbd36;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+   }
+   
+   .submit input:hover {
+    background: #2ae149;
+   }
+   
+   .form-control {
+    color: #495057;
+   }
+   
+   select {
+    width: 100%;
+    background: #fff;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    word-wrap: normal;
+    display: block;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+   }
+   
+   select:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+   }
+   
